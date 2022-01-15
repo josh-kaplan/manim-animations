@@ -1,0 +1,43 @@
+# EditorConfig: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Makefile
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+# Python
+[*.py]
+indent_size = 4
+
+# JavaScript and JSON
+[*.{js,json}]
+indent_size = 2
+
+# JSX
+[*.jsx]
+indent_size = 2
+
+# JSON-like files
+[{.eslintrc,*.cfg}]
+indent_size = 2
+
+# HTML and HTML-templates
+[*.{html,ejs}]
+indent_size = 2
+
+# CSS and CSS Preprocessors
+[*.{sass,css}]
+indent_size = 2
+
